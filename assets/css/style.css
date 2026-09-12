@@ -4499,3 +4499,283 @@ button.close:hover {
 .before-after-gallery-con .single-item-con {
     gap: 40px;
 }
+
+/* SERVICE AREAS CSS */
+
+    /*
+    ------------------------------------------------
+    IMPORTANT
+    ------------------------------------------------
+    The section intentionally inherits your website's
+    existing text/button colors wherever possible.
+    It does not create a separate color palette.
+    ------------------------------------------------
+    */
+
+    .service-areas-section {
+        overflow: hidden;
+    }
+
+    .service-areas-heading {
+        max-width: 900px;
+        margin: 0 auto 55px;
+    }
+
+    .service-areas-heading .special-text {
+        margin-bottom: 12px;
+    }
+
+    .service-areas-heading h2 {
+        margin-bottom: 22px !important;
+    }
+
+    .service-areas-heading p {
+        max-width: 760px;
+        margin: 20px auto 0;
+        line-height: 1.7;
+    }
+
+
+    /* Grid
+    ------------------------------*/
+
+    .service-areas-grid {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .service-areas-grid > div {
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-bottom: 24px;
+        display: flex;
+    }
+
+
+    /* Card
+    ------------------------------*/
+
+    .service-area-card {
+        position: relative;
+        width: 100%;
+        min-height: 315px;
+        padding: 34px 30px 30px;
+        border-radius: 28px;
+        background: #fff;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        transition:
+            transform 0.35s ease,
+            box-shadow 0.35s ease,
+            border-color 0.35s ease;
+    }
+
+    .service-area-card::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 5px;
+        height: 0;
+        background: var(--primary--color);
+        transition: height 0.35s ease;
+    }
+
+    .service-area-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+    }
+
+    .service-area-card:hover::before {
+        height: 100%;
+    }
+
+
+    /* Decorative Number
+    ------------------------------*/
+
+    .service-area-number {
+        position: absolute;
+        right: 24px;
+        top: 17px;
+        font-family: "Oswald", sans-serif;
+        font-size: 58px;
+        line-height: 1;
+        font-weight: 700;
+        opacity: 0.055;
+        pointer-events: none;
+    }
+
+
+    /* Location Icon
+    ------------------------------*/
+
+    .service-area-icon {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 22px;
+
+        /*
+        Uses the same color as your surrounding typography
+        rather than introducing another brand color.
+        */
+        border: 1px solid black;
+    }
+
+    .service-area-icon i {
+        font-size: 21px;
+    }
+
+
+    /* Typography
+    ------------------------------*/
+
+    .service-area-card h3 {
+        font-family: "Oswald", sans-serif;
+        font-size: 25px;
+        line-height: 1.25;
+        font-weight: 700;
+        margin: 0 0 13px;
+        color: var(--black--color);
+    }
+
+    .service-area-card p {
+        font-family: "Archivo", sans-serif;
+        font-size: 15px;
+        line-height: 1.65;
+        margin: 0 0 25px;
+        flex-grow: 1;
+    }
+
+
+    /* Button
+    ------------------------------*/
+
+    /* Service Area Card Button */
+.service-area-btn {
+    align-self: flex-start;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+    width: auto !important;
+    min-width: 0 !important;
+    height: auto !important;
+
+    margin-top: auto;
+    padding: 9px 16px !important;
+
+    font-family: "Archivo", sans-serif;
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+    font-weight: 600;
+
+    border-radius: 6px;
+    text-decoration: none !important;
+}
+
+.service-area-btn i {
+    font-size: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-area-btn:hover i {
+    transform: translateX(3px);
+}
+
+
+    /* Responsive
+    ------------------------------*/
+
+    @media only screen and (max-width: 1199px) {
+
+        .service-area-card {
+            padding: 30px 25px 27px;
+        }
+
+        .service-area-card h3 {
+            font-size: 23px;
+        }
+
+        .service-area-number {
+            font-size: 50px;
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) {
+
+        .service-areas-heading {
+            margin-bottom: 40px;
+        }
+
+        .service-area-card {
+            min-height: 300px;
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+
+        .service-areas-heading h2 br {
+            display: none;
+        }
+
+        .service-areas-heading {
+            margin-bottom: 35px;
+        }
+
+        .service-area-card {
+            min-height: auto;
+            border-radius: 22px;
+        }
+
+        .service-area-bottom {
+            margin-top: 20px;
+            padding-top: 35px;
+        }
+    }
+
+
+    @media only screen and (max-width: 575px) {
+
+        .service-areas-grid {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .service-areas-grid > div {
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 18px;
+        }
+
+        .service-area-card {
+            padding: 27px 22px 24px;
+        }
+
+        .service-area-icon {
+            width: 52px;
+            height: 52px;
+        }
+
+        .service-area-card h3 {
+            font-size: 22px;
+        }
+
+        .service-area-card p {
+            font-size: 14px;
+        }
+
+        .service-area-number {
+            right: 20px;
+            top: 18px;
+            font-size: 44px;
+        }
+    }
