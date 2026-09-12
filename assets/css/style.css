@@ -907,15 +907,10 @@ body {
     color: var(--primary--color);
 }
 
-.footer-con .middle_portion .contact span,
-.footer-con .middle_portion .contact li:last-child,
-.footer-con .middle_portion .contact.var2 li:last-child a {
+.footer-con .middle_portion .contact span {
     font-size: 13px;
 }
 
-.footer-con .middle_portion .contact.var2 li:last-child a {
-    text-decoration: underline;
-}
 
 .footer-con .middle_portion .icon {
     padding-left: 35px;
@@ -994,7 +989,7 @@ body {
 
 .footer-con .copyright-con p {
     color: var(--sky--text--color);
-    font-size: 12px;
+    font-size: 16px;
     line-height: 12px;
 }
 
@@ -1104,7 +1099,7 @@ body {
 
 /* BANNER SECTION */
 .banner-con {
-    background-image: url(../images/banner-bg-img.jpg);
+    background-image: url(../images/bg/home-banner-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 55px;
@@ -1950,13 +1945,13 @@ body {
 /* white card */
 .service-card {
     position: absolute;
-    left: 50%;
+    left: 45%;
     bottom: -135px;
     transform: translateX(-50%);
     background: var(--secondary--color);
-    width: 281px;
+    width: 335px;
     border-radius: 20px;
-    padding: 65px 29px 22px;
+    padding: 65px 20px 20px;
     text-align: center;
     box-shadow: 5px 0px 56px rgba(0, 0, 0, 5%);
     transition: ease-in-out 0.6s;
@@ -4779,3 +4774,21 @@ button.close:hover {
             font-size: 44px;
         }
     }
+
+/* COPYRIGHT CSS */
+.footer-powered,
+.footer-powered-link {
+    color: #ffffff;
+}
+
+.footer-powered-link {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-powered-link:hover,
+.footer-powered-link:focus {
+    color: var(--primary--color);
+    text-decoration: none;
+    transition: all 0.6s ease-in-out;
+}
