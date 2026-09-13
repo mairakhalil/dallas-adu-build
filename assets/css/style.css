@@ -3640,7 +3640,7 @@ body {
 .pricing-plans-con .pricing-box {
     background-color: var(--secondary--color);
     border-radius: 30px;
-    padding: 42px 49px;
+    padding: 30px;
     position: relative;
     border: 1px solid var(--secondary--color);
     transition: ease-in-out 0.6s;
@@ -3727,7 +3727,7 @@ body {
     justify-content: center;
     height: 54px;
     line-height: 54px;
-    min-width: 184px;
+    min-width: 213px;
     font-size: 16px;
 }
 
@@ -4090,7 +4090,7 @@ button.close:hover {
 
 /* ABOUT US CON 02 */
 .about-us-con2 {
-    background-image: url(../images/about-us-con2-bg.jpg);
+    background-image: url(../images/bg/city-bg-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
