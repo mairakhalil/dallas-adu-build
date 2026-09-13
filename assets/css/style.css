@@ -1657,7 +1657,7 @@ body {
     width: 100%;
     height: 100%;
     opacity: 90%;
-    background-image: url(../images/black-overlay.png);
+    background-image: url(../images/bg/black-overlay.webp);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 40px;
@@ -1767,7 +1767,7 @@ body {
 
 /*  */
 .price-estimation-con {
-    background-image: url(../images/price-estimation-bg-img.jpg);
+    background-image: url(../images/bg/adu-services-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1848,7 +1848,6 @@ body {
     -webkit-appearance: none;
     background-repeat: no-repeat !important;
     background-position: 93% 27px !important;
-    background-image: url(../images/dropdown-arrow2.png) !important;
 }
 
 .estimate-btn {
@@ -1958,6 +1957,11 @@ body {
     text-align: center;
     box-shadow: 5px 0px 56px rgba(0, 0, 0, 5%);
     transition: ease-in-out 0.6s;
+}
+
+.card-width{
+    left: 50%;
+    width: 297px;
 }
 
 /* blue circle icon */
@@ -2569,7 +2573,7 @@ body {
 
 .login-form {
     min-height: 100vh;
-    /* background-image: url(../images/login-signup-bg.png);
+    /* 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
@@ -2713,7 +2717,7 @@ body {
     -webkit-appearance: none;
     background-repeat: no-repeat !important;
     background-position: 96.5% 24px !important;
-    background-image: url('../images/dropdown-arrow.png') !important;
+    background-image: url('../images/icons/dropdown-arrow.svg') !important;
 }
 
 .sign-up-form .login-card .select-option:focus {
@@ -2762,7 +2766,7 @@ body {
 }
 
 .trusted-service-con {
-    background-image: url(../images/trusted-service-bg-img.jpg);
+    background-image: url(../images/bg/adu-services-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -3253,7 +3257,6 @@ body {
     -webkit-appearance: none;
     background-repeat: no-repeat !important;
     background-position: 95% 27px !important;
-    background-image: url(../images/dropdown-arrow2.png) !important;
 }
 
 .contact-form-con .form-group-custom textarea,
@@ -3582,7 +3585,6 @@ body {
 .professional-care-con {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url(../images/profesional-care-bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -3744,7 +3746,6 @@ body {
 }
 
 .video-con .video-inner-wrap::before {
-    background: url(../images/video-img-bg.jpg);
     content: "";
     width: 100%;
     height: 100%;
@@ -3796,7 +3797,6 @@ body {
 
 .gallery-con .gallery-img-con a::before {
     content: "";
-    background: url(../images/Plus-icon.png) no-repeat center;
     width: 66px;
     height: 66px;
     position: absolute;
@@ -3945,7 +3945,6 @@ button.close:hover {
 
 /* HOME 02 STYLING */
 .home2-wrapper .banner-con {
-    background-image: url(../images/banner-home2-bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 195px;
@@ -4070,7 +4069,6 @@ button.close:hover {
 }
 
 .home2-wrapper .services-con .services-box2:hover {
-    background-image: url(../images/service-hover-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -4125,7 +4123,6 @@ button.close:hover {
 
 /* cta con 02 */
 .cta-con2 {
-    background-image: url(../images/cta-con2-bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -4140,7 +4137,6 @@ button.close:hover {
 
 /* REQUEST SERVICE CON 02 */
 .request-service-con .blue-box {
-    background-image: url(../images/request-service-bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px;
@@ -4304,7 +4300,6 @@ button.close:hover {
 
 .home3-banner-con::before {
     content: "";
-    background-image: url(../images/banner3-img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -4317,7 +4312,6 @@ button.close:hover {
 
 .home3-banner-con::after {
     content: "";
-    background-image: url(../images/banner3-img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
