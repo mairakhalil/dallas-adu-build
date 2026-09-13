@@ -209,7 +209,7 @@ p {
 
 .primary_btn {
     font-size: 18px;
-    min-width: 212px;
+    min-width: 256px;
     padding: 0;
     height: 65px;
     line-height: 65px;
@@ -1396,7 +1396,7 @@ body {
 
 /*  */
 .check-availability-con {
-    background-image: url(../images/check-bg-img.jpg);
+    background-image: url(../images/bg/service-areas-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 78px;
@@ -1729,7 +1729,10 @@ body {
     margin: 0 auto 46px;
     background-color: var(--primary--color);
 }
-
+.how-it-works-con .work-box figure img{
+    filter: brightness(0) invert(1);
+    width: 55px;
+}
 .how-it-works-con .work-box span {
     width: 42px;
     height: 42px;
@@ -1971,6 +1974,10 @@ body {
     top: -41px;
     left: 50%;
     transform: translateX(-50%);
+}
+.service-icon img {
+    width: 50px !important;
+ 
 }
 
 .services-con .owl-carousel .owl-item img {
@@ -4191,6 +4198,7 @@ button.close:hover {
     box-shadow: 5px 0px 56px rgba(0, 0, 0, 5%);
     padding: 10px;
     padding-right: 25px;
+    margin-bottom: 40px;
 }
 
 .service-box3 .service-content3 .primary_btn {
